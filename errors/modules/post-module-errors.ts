@@ -1,6 +1,6 @@
 import { ErrorInterface } from '../interfaces/error.interface';
 
-export class PostEndpoint {
+export class PostModuleErrors {
   POST: ErrorInterface[];
   GET_mine: ErrorInterface[];
   GET_bookmarked: ErrorInterface[];

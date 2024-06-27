@@ -1,8 +1,8 @@
-import { PostEndpoint } from './endpoints/post-endpoint';
+import { PostModuleErrors } from './modules/post-module-errors';
 
 export class ErrorApp {
-  post: PostEndpoint;
+  post: PostModuleErrors;
   constructor() {
-    this.post = new PostEndpoint();
+    this.post = new PostModuleErrors();
   }
 }

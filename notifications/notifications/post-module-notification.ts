@@ -4,7 +4,7 @@ import { CommentNotificationPayloadInterface } from '../interfaces/comment-notif
 import { ReplayNotificationPayloadInterface } from '../interfaces/replay-notification-payload.interface';
 import { CommentLikeNotificationPayloadInterface } from '../interfaces/comment-like-notification-payload.interface';
 
-export class PostEndpoint {
+export class PostModuleNotification {
   POST_id_like: NotificationInterface<PostNotificationPayloadInterface>;
   POST_id_comment: [
     NotificationInterface<CommentNotificationPayloadInterface>,

@@ -1,8 +1,8 @@
-import { PostEndpoint } from './endpoints/post-endpoint';
+import { PostModuleNotification } from './notifications/post-module-notification';
 
 export class NotificationApp {
-  post: PostEndpoint;
+  post: PostModuleNotification;
   constructor() {
-    this.post = new PostEndpoint();
+    this.post = new PostModuleNotification();
   }
 }
